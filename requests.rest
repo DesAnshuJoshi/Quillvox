@@ -1,0 +1,11 @@
+# Access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjUyZGRkMWZmMGI4M2MzYWJkYTkzNyIsImlhdCI6MTcxMDI1ODQ4Mn0.I2qglEg6jj82RAmCujSwUDOMbmcMqHjyu0Oo2I4ggWY
+
+
+POST http://localhost:3000/user-written-blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjUyZGRkMWZmMGI4M2MzYWJkYTkzNyIsImlhdCI6MTcxMDI1ODcyM30.Ovh7xFFLUlB4-uWYHvkt5cuf4cGdh0EnCgcG5cIgDnY
+
+{
+    "page": 1,
+    "draft": true
+}
